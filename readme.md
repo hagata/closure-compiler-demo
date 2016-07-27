@@ -1,3 +1,9 @@
+# Install closure-library sub-module.
+```
+ git submodule init
+ git submodule update
+```
+
 # Java jar command
 Use the following jar command to compile the project js to `dist/js/main.js`
 ```
