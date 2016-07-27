@@ -1,7 +1,10 @@
-function main(longName) {
-  console.log(` Hello ES6 user: ${longName}`);
-}
-main('ES6 User');
+import { Logger } from 'js/modules/logger';
 
-goog.exportSymbol('main', main);
-export { main }
+
+function app() {
+
+  const loggy = new Logger('Logging');
+  loggy.log();
+}
+
+app()
